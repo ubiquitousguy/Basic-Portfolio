@@ -7,7 +7,7 @@ container {
 
 body {
 	background: #4aaaa5;
-	/*background-image: url("../images/concrete_seamless.png");*/
+	background-image: url('../images/concrete_seamless.png');
 }
 
 header {
@@ -28,13 +28,17 @@ header .navbar {
   float: right;
   margin-top: 15px;
   font-family: sans-serif;
+  font-color: #777777
 }
 header .navbar ul li {
   display: inline-block;
-  margin: 0 0 0 40px;
-  font-size: 15px;
+  /*margin:  0px;*/
+  font-size: 20px;
   font-family: sans-serif;
+  padding-right: 40px;
+  font-color: #777777
 }
+
 header nav ul li a {
   color: #f9e42e;
 }
@@ -43,7 +47,7 @@ header nav ul li a {
 
 }
 
-h2 {
+section #main-bio h2 {
 	font-size: 30px;
 	font-family: sans-serif;
 }
@@ -60,4 +64,10 @@ h2 {
 
 section #contact-info {
 	margin-top: 150px;
+	float: right;
+}
+
+section #contact-info ul {
+	display: inline-block;
+	float: right;
 }
