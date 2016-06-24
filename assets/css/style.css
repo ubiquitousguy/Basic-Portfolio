@@ -1,0 +1,63 @@
+
+
+container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+body {
+	background: #4aaaa5;
+	/*background-image: url("../images/concrete_seamless.png");*/
+}
+
+header {
+	background: #ffffff;
+	overflow: hidden;
+	padding: 25px 0;
+	border: #cccccc;
+}
+
+header .name {
+	float: left;
+	font-size: 32px;
+	color: black;
+	font-family: sans-serif;
+}
+
+header .navbar {
+  float: right;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+header .navbar ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+header nav ul li a {
+  color: #f9e42e;
+}
+
+#main-bio {
+
+}
+
+h2 {
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.pic {
+	float: left;
+	margin-top: 150px;
+}
+
+.text {
+	float: left;
+	width: 300px;
+	margin-top: 150px;
+}
+
+section #contact-info {
+	margin-top: 150px;
+}
