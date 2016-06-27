@@ -1,14 +1,11 @@
 
 
-container {
+.container {
   width: 960px;
   margin: 0 auto;
 }
 
-body {
-	background: #4aaaa5;
-	background-image: url('../images/concrete_seamless.png');
-}
+
 
 header {
 	background: #ffffff;
@@ -17,57 +14,84 @@ header {
 	border: #cccccc;
 }
 
-header .name {
+.name {
 	float: left;
 	font-size: 32px;
 	color: black;
 	font-family: sans-serif;
+	background: #4aaaa5;
+	margin-left: 15%;
+	margin-top: 30px;
+	font-weight: bold;
+
 }
 
-header .navbar {
+.navbar {
   float: right;
   margin-top: 15px;
   font-family: sans-serif;
-  font-color: #777777
-}
-header .navbar ul li {
+  color: #777777;
   display: inline-block;
-  /*margin:  0px;*/
+  margin-right: 40px;
   font-size: 20px;
-  font-family: sans-serif;
-  padding-right: 40px;
-  font-color: #777777
-}
-
-header nav ul li a {
-  color: #f9e42e;
-}
-
-#main-bio {
 
 }
 
-section #main-bio h2 {
+
+body {
+	background-image: url(../images/concrete_seamless.png);
+}
+
+.main {
+	width: 650px;
+	height: 400px;
+	margin-left: 15%;
+	background: white;
+	margin-top: 30px;
+	}
+
+
+.about {
 	font-size: 30px;
-	font-family: sans-serif;
+	margin-right: 20px;
+	color: #4aaaa5;
+	margin-left: 50px;
+
 }
-.pic {
+/*.pic {
 	float: left;
 	margin-top: 150px;
 }
-
+*/
 .text {
-	float: left;
-	width: 300px;
-	margin-top: 150px;
-}
-
-section #contact-info {
-	margin-top: 150px;
 	float: right;
+	width: 350px;
+	margin-top: 125px;
+	border: 1px solid black;
 }
 
-section #contact-info ul {
+.connect {
+	font-size: 30px;
+}
+#contact-info {
 	display: inline-block;
 	float: right;
+	width: 270px;
+	/*margin: 0 0 0 10px;*/
+	border: 1px solid black;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	/*overflow: auto;*/
+	border: 1px solid black;
+}
+
+.copyright {
+	background: grey;
+	height: 50px;
+	text-align: center;
+
 }
