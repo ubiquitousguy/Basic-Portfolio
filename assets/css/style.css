@@ -3,6 +3,7 @@
 .container {
   width: 960px;
   margin: 0 auto;
+
 }
 
 
@@ -17,12 +18,14 @@ header {
 .name {
 	float: left;
 	font-size: 32px;
-	color: black;
+	color: white;
 	font-family: sans-serif;
 	background: #4aaaa5;
-	margin-left: 15%;
+	margin-left:110px;
 	margin-top: 30px;
 	font-weight: bold;
+	border: 1px solid black;
+
 
 }
 
@@ -30,10 +33,13 @@ header {
   float: right;
   margin-top: 15px;
   font-family: sans-serif;
-  color: #777777;
+  color: grey;
   display: inline-block;
   margin-right: 40px;
   font-size: 20px;
+  border: 1px solid black;
+  width: 200px;
+  text-align: center;
 
 }
 
@@ -69,18 +75,20 @@ body {
 	margin-top: 100px;
 	
 }
-
-.connect {
-	font-size: 30px;
-	color: #4aaaa5;
-	text-align: center;
-	
-}
 #contact-info {
 	display: inline-block;
 	float: right;
 	width: 270px;
 	height: 100px;
+	background: white;
+	position: relative;
+	/*margin-bottom: 200px;*/
+}
+.connect {
+	font-size: 30px;
+	color: #4aaaa5;
+	text-align: center;
+	
 	
 }
 
@@ -93,7 +101,23 @@ body {
 
 .copyright {
 	background: grey;
-	height: 60px;
+	height: 80px;
 	text-align: center;
+	clear: both;
 
+}
+
+.input {
+	margin-left: 40px;
+	clear: both;
+	margin-top: 30px;
+}
+
+.me {
+	font-size: 30px;
+	margin-left: 40px;
+	color: #4aaaa5;
+}
+.submit {
+	color: #4aaaa5;
 }
