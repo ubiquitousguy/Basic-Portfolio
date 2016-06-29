@@ -34,13 +34,17 @@ header {
   margin-top: 15px;
   font-family: sans-serif;
   color: grey;
-  display: inline-block;
-  margin-right: 40px;
+  display: inline;
+ /* margin-right: 40px;*/
   font-size: 20px;
   border: 1px solid black;
-  width: 200px;
+  width: 350px;
   text-align: center;
 
+}
+
+.navbar li {
+	display: inline;
 }
 
 
@@ -51,9 +55,10 @@ body {
 .main {
 	width: 650px;
 	height: 400px;
-	margin-left: 15%;
+	/*margin-left: 15%;*/
 	background: white;
 	margin-top: 30px;
+	float: left;
 	}
 
 
@@ -76,12 +81,13 @@ body {
 	
 }
 #contact-info {
-	display: inline-block;
+	
 	float: right;
 	width: 270px;
-	height: 100px;
+	height: 200px;
 	background: white;
-	position: relative;
+	margin-top: 30px;
+	/*position: relative;*/
 	/*margin-bottom: 200px;*/
 }
 .connect {
@@ -92,11 +98,16 @@ body {
 	
 }
 
-.icon {
+.icon li{
 	width: 350px;
 	height: 150px;
-	display: inline-block;
+	display: inline;
+	/*text-align: center;*/
 	
+}
+
+.git {
+	max-width: 70px;
 }
 
 .copyright {
@@ -107,7 +118,7 @@ body {
 
 }
 
-.input {
+input {
 	margin-left: 40px;
 	clear: both;
 	margin-top: 30px;
