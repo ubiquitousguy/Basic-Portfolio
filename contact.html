@@ -10,8 +10,8 @@
   
   <body>
   	<header>
-		<div class="container">
-			<div class="name">Guy Pham</div>
+		
+			<div class="name"><h1>Guy Pham</h1></div>
 		  		<nav class="navbar">	
 		  			<ul>
 		    			<li><a href="index.html">About</a> |</li>
@@ -23,45 +23,49 @@
 	  	</div>
 	</header>	
 
-
+	<div class="container">
   	<div class="main">
-
-  		<div class="me">Contact</div>
+  		<h2>Contact</h2>  		
   		<hr>
 
+  <div class="contact">	
   	<form class="input">
   		
-  		Name<br>
-  		<input type="text" name="John Smith"><br>
-  		Email<br>
-  		<input type="text" name="example@johnsmith.com"><br>
-  		Message<br>
-  		<input type="text" name=""><br>
+  		<label for="name">Name</label><br>
+  		<input type="text" name="username" placeholder="John Smith"/><br>
+  		
+  		<label for="mail">E-mail</label>
+  		<input type="email" id="mail" name="user_name" placeholder="example@gmail.com" /><br>
+  		
+  		<label for="msg">Message</label>
+  		<textarea id="msg" name="user_message"></textarea>
 
-  		<input class="submit" type="submit" value="Submit">
+  		<div class="button">
+  			<button type="submit">Submit</button>
+  		</div>
 
   	</form>
   	</div>
+  	</div>
+  
 
-  </body>
-
-   <div id="contact-info">
-   		<p class="connect">Connect With Me</p>
+   	<div class="sidebar">
+   		<!-- <p class="connect">Connect With Me</p> -->
+   		<h2>Connect With Me</h2>
    		<hr>
-   		<!-- <div class="icon"> -->
+   		
    		<ul class="icon">
    			<li><img class="git"src="assets/images/github.png" alt="Github logo"></li>
    			<li><img class="git"src="assets/images/linkedin.png" alt="Linkedin logo"></li>
    			<li><img class="git"src="assets/images/stackoverflow.png" alt="Stackoverflow logo"></li>
-   		</ul>
-   		<!-- </div> -->
-  
-  </div> 
-<footer class="copyright">
-	<p>Copyright 2016 Guy Pham</p>
+   		</ul> 
+  	</div> 
+  </div>
+<footer>
+	<p>	&copy; Copyright 2016 Guy Pham</p>
 </footer>
 
- 
+ </body>
 
   </html>
 
