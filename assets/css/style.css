@@ -3,10 +3,10 @@ body {
 	background-image: url(../images/concrete_seamless.png);
 }
 
-body {
+/*body {
 	background-image: url(../images/concrete_seamless.png);
 	width: 1180px;
-}
+}*/
 
 .container {
   width: 960px;
@@ -18,28 +18,22 @@ header {
 	height: 75px;
 	background: #fff;
 	min-width: 100%;
-	/* display: inline; */
+	/*width: 1190px;*/
+	
 }
 
-.name {
-	/* position: relative; */
-	/* left: 100px; */
-	height: 50px;
-	/* padding-right: 5px; */
-	/* padding-left: 10px; */
-	padding: 5px 5px;
-	margin: -12px 25px;
-	color: white;
-	font-family: sans-serif;
-	background: #4aaaa5;
-	font-size: 30px;
-	font-weight: 700;
-	/* display: inline; */
-	margin-top: 9px;
-	float: left;
-}
-
-
+.name {height: 50px;
+	   padding: 5px 19px;
+	   margin: -12px 25px;
+	   color: white;
+	   font-family: sans-serif;
+	   background: #4aaaa5;
+	   font-size: 30px;
+	   font-weight: 700;
+	   margin-top: 15px;
+	   margin-left: 82px;
+	   float: left;
+	}
 
 .name h1 {
 	position: relative;
@@ -48,16 +42,15 @@ header {
 }
 
 .navbar {
-  /* position: relative; */
-  display: inline;
-  margin: 27px 25px 0 0;
+ display: inline;
+ margin: 54px 103px 0 0;
   0: 20px
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-  min-width: 50px;
-  float: right;
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+ text-decoration: none;
+ min-width: 50px;
+ float: right;
 }
 
 .navbar li {
@@ -69,24 +62,16 @@ header {
 	height: 480px;
 	background: white;
 	position: absolute;
-	top: 25px;
+	top: 35px;
 	left: -35px;
 	/* float: left; */
 	padding: 30px;
 }
 .main img {
-	padding-right: 25px;
-	top: 0px;
-	
-	left: -60px;
-	padding: 30px;
-	margin-left: 50px;
-	margin-top: 50px;
+	padding: 25px;
+	margin-left: -25px;
+	margin-top: -16px;
 	}
-.main img {
-	padding-right: 25px;
-	margin-left: 5px;
-}
 
 .main p {
 	/*font-family: 'Dosis', sans-serif;*/
@@ -101,7 +86,7 @@ header {
 	font-size: 30px;
 	color: #4aaaa5;
 	font-weight: 800;
-	margin-left: 22px;
+	margin-left: 0px;
 	margin-top: 20px;
 }
 
@@ -109,7 +94,7 @@ header {
 	font-size: 30px;
 	color: #4aaaa5;
 	font-weight: 800;
-	margin-left: 22px;
+	margin-left: 0px;
 	margin-top: 20px;
 
 }
@@ -133,10 +118,9 @@ header {
 	width: 270px;
 	height: 200px;
 	background: white;
-	margin-top: 50px;
-	
+	margin-top: 35px;
 	position: absolute;
-	left: 80%;
+	left: 76%;
 	text-align: center;
 }
 .sidebar h2 {
@@ -178,11 +162,11 @@ h2 {
 	font-weight: 800;
 }
 .input {
-	margin-left: 22px;
+	margin-left: 0px;
 }
 
 input, textarea {
-	width: 600px;
+	width: 638px;
 	display: block;
 	height: 25px;
 	margin-top: 5px;
@@ -194,7 +178,7 @@ input, textarea {
 textarea {
 	height: 180px;
 	margin-top: 5px;
-	width: 600px;
+	width: 638px;
 }
 
 .button {
@@ -207,19 +191,31 @@ textarea {
 	text-decoration: none;
 
 }
-.portfolio {
+
+.main-content {
 	width: 650px;
-	height: 480px;
+	height: 800px;
 	background: white;
 	position: absolute;
-	/* margin-left: 50px; */
-	margin-top: 50px;
+	top: 35px;
+	left: -35px;
+	/* float: left; */
+	padding: 30px;
 }
-.portfolio h2 {
+
+.main-content h1 {
 	font-size: 30px;
 	color: #4aaaa5;
 	font-weight: 800;
-	margin-left: 22px;
+	margin-left: 0px;
 	margin-top: 20px;
+}
 
+.main-content img {
+	padding-left: 30px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+.citya {
+	margin-bottom: 5px;
 }
