@@ -1,4 +1,5 @@
 
+
 body {
 	background-image: url(../images/concrete_seamless.png);
 	width: 1180px;
@@ -7,7 +8,7 @@ body {
 .container {
   width: 960px;
   margin: 0 auto;
-
+  position: relative;
 }
 
 header {
@@ -19,33 +20,34 @@ header {
 
 .name {
 	position: relative;
-	left: 157px;
+	left: 100px;
 	height: 50px;
 	padding-right: 5px;
 	padding-left: 10px;
-	top: 20px;
+	padding-top: 20px;
+	margin-top: -15px;
 	width: 150px;
 	color: white;
 	font-family: sans-serif;
 	background: #4aaaa5;
 	font-size: 30px;
 	font-weight: 700;
-
 }
+
 
 .name h1 {
 	position: relative;
-	top: 10px;
+	top: 20px;
 	color: white;
 }
 
 .navbar {
-  position: relative;
+  /* position: relative; */
   font-size: 20px;
   text-decoration: none;
   color: gray;
   left: 850px;
-
+  float: right;
 }
 
 .navbar li {
@@ -58,15 +60,26 @@ header {
 	height: 480px;
 	background: white;
 	position: absolute;
-	/*top: 130px;*/
-	/*float: left;*/
-	/*padding: 30px;*/
+	top: 0px;
+	
+	left: -60px;
+	padding: 30px;
 	margin-left: 50px;
 	margin-top: 50px;
 	}
 .main img {
 	padding-right: 25px;
-	margin-left: 25px;
+	margin-left: 5px;
+}
+
+.main p {
+	/*font-family: 'Dosis', sans-serif;*/
+	/*font-family: 'Indie Flower', cursive;*/
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	
 }
 .main h1 {
 	font-size: 30px;
@@ -105,10 +118,9 @@ header {
 	height: 200px;
 	background: white;
 	margin-top: 50px;
-	padding: 35px;
+	/* padding: 35px; */
 	text-align: center;
-	margin-left: 50px;
-	
+	margin-right: -150px;
 }
 .sidebar h2 {
 	font-size: 30px;
@@ -184,7 +196,7 @@ textarea {
 	height: 480px;
 	background: white;
 	position: absolute;
-	margin-left: 50px;
+	/* margin-left: 50px; */
 	margin-top: 50px;
 }
 .portfolio h2 {
